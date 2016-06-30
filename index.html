@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="default.css" rel="stylesheet" media="all">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- Slidebars CSS -->
+		<link rel="stylesheet" href="slidebars.css">
+        
+<title>Sirus Das</title>
+    <script> 
+$(document).ready(function(e) {
+	
+	$("#prof").hide();
+	$("#res").hide();
+    $("#arw").click(function(){
+		 var img=$("#arw").attr('src');
+		
+		if(img.match("arrow_png.png"))
+		{
+	      $("#arw").attr('src','arrow_png1.png');
+		}
+		else
+		{
+	      $("#arw").attr('src','arrow_png.png');
+		}
+		
+			});
+	
+});
+</script>
+
+<script>
+function Changer()
+{
+	$("#home").click(function(){
+	$("#profileli").removeAttr("class");
+	$("#resumeli").removeAttr("class");
+	$("#contactli").removeAttr("class");
+	$("#portfolioli").removeAttr("class");
+	$("#homeli").attr("class","current_page_item");
+	
+	$("#prof").hide();
+	$("#res").hide();
+	$(".pic").fadeIn();		
+	
+	});
+		
+	$("#profile").click(function(){
+	$("#homeli").removeAttr("class");
+	$("#resumeli").removeAttr("class");
+	$("#contactli").removeAttr("class");
+	$("#portfolioli").removeAttr("class");	
+	$("#profileli").attr("class","current_page_item");
+	
+	$(".pic").hide();
+	$("#res").hide();
+	$("#prof").fadeIn();	
+	});
+	
+	$("#resume").click(function(){
+	$("#homeli").removeAttr("class");
+	$("#resumeli").removeAttr("class");
+	$("#profileli").removeAttr("class");
+	$("#portfolioli").removeAttr("class");	
+	$("#resumeli").attr("class","current_page_item");		
+		
+	$(".pic").hide();
+	$("#prof").hide();
+	$("#res").fadeIn();	
+	});
+	
+	$("#portfolio").click(function(){
+	$("#homeli").removeAttr("class");
+	$("#resumeli").removeAttr("class");
+	$("#contactli").removeAttr("class");
+	$("#profileli").removeAttr("class");	
+	$("#protfolioi").attr("class","current_page_item");		
+		
+	$(".pic").fadeOut();	
+	});
+	
+	$("#contact").click(function(){
+	$("#homeli").removeAttr("class");
+	$("#resumeli").removeAttr("class");
+	$("#profileli").removeAttr("class");
+	$("#portfolioli").removeAttr("class");	
+	$("#contactli").attr("class","current_page_item");		
+		
+	$(".pic").fadeOut();	
+	});
+	
+}
+
+</script>
+
+
+</head>
+<body>
+
+<div id="sb-site">
+<div class="arrow-open">
+ <img id="arw" class="sb-toggle-left" src="arrow_png.png" style="float:left;margin-left:0%; width:10%;height:10%">
+</div>
+
+<div class="arrow-close">
+ <img class="sb-toggle-left" src="arrow_png1.png" style="float:left;margin-left:0%; width:10%;height:10%">
+</div>
+
+
+<div class="pic">
+
+<img src="file:///C|/Users/Sirus/Pictures/edited.jpg">
+
+<br><p>&quot;Believe in creating better world&quot;,<br>
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Suresh Das<br></p>
+<p>&nbsp;</p>
+</div>
+
+<!-- *******************profile details////////////-->
+
+<div id="prof">
+<s1>Profile</s1>
+<div class="format">
+<p1><h2>About Life:</h2>
+
+Life is a mistry for me, Life is a stage for me, Life is LOVE for me, and Life is spreading happiness and helping for me. These are basic goals except this i make a lot mistakes and i am not perfect, i keep learning and try to make my dreams come true.
+
+Life's awesome if u have patience, forgiveness, understanding, and selfrealization.
+I respect everyone from good to bad but take my own decisions. I like to workout, do all crazy stuffs, and love to do something tough or impossible but i should love to do it :p
+
+I have a huge series of dreams and always wanted to build a better earth and my country.
+I wanted to visit the whole universe and make real IRON MAN suit.
+
+<h2>About me:</h2>
+
+I have seen a lot of ups and downs in my life, i used to live a unstable life and then slowly moving towars self enlightment. I never give up with my bad days and always tried to learn from it and make me better and better. I have myself seen devil inside me and also transforming it to good, thats why i truely believe in "YING-YAN" and have also experience it which made me realize how to be with all good and bad people in this world.
+I try to be very positive and happy and make others also happy. The best way to be happy is share your feelings and understand their feeling.
+I always love to be truthful, honest and accept my mistakes.
+Life is still a learning process and i am here to carve name on hearts and lets hope for best.
+
+<h2>Life's quotes:</h2>
+         Nothing matters in the end, what u have, what u are , what u want. What matters is how you are from ur heart, how u spread happiness and help other, how u create urself bcoz in the end everyone will die and perish nothing is permanent here so make use of ur life... its only try and try will one day achieve what u want.
+          And dont forget to dream and try to make it come true.
+When in pain or in strain dont forget to say "CHEERS TO LIFE !!!"
+
+</p1>
+</div>
+</div>
+
+<div id="res">
+<s1>Resume</s1>
+<div class="format">
+<p1><h2>Suresh Das</h2>
+Neel apt, Central Park.<br>
+r no:401,A wing,Nallasopara(E).<br>
+Mumbai-401209<br>
+sirusdas@gmail.com<br>
+Phone: 7208437984<br>
+<h2>Keywords:</h2>
+ C, C++, Visual Basic, Intel 8086 Assembler, MS/DOS, JAVA, RINO, HTML, XML, JSP, JQUERY, AJAX, PHP, SQL, JAVA SCRIPT, Google App Engine.<br>
+<h2>Education:</h2>
+SSC<br>, Diploma in COMPUTER TECHNOLOGY, 2012
+THAKUR POLYTECHNIC, KANDIVALI (E).<br>
+Currently in St. John college of Engineering and Technology.<br>
+
+<h2>My Works:</h2>
+http://siddhivinayakjewellery.appspot.com/ 
+</p1>
+</div>
+</div>
+
+  </div>          
+            
+            
+            <div class="sb-slidebar sb-left sb-style-push">
+			<!-- Your left Slidebar content. -->
+            
+			<div id="header">
+		<div id="logo">
+			<img src="file:///C|/Users/Sirus/Pictures/edited.jpg" alt="" />
+			<h1><a href="#">Suresh</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li id="homeli" class="current_page_item"><a id="home" href="#" accesskey="1" title="" onClick="Changer()">Homepage</a></li>
+				<li id="profileli"><a id="profile" href="#" accesskey="2" title="" onClick="Changer()" >Profile</a></li>
+				<li id="resumeli"><a id="resume" href="#" accesskey="3" title="" onClick="Changer()">Resume</a></li>
+				<li id="portfolioli"><a id="portfolio" href="#" accesskey="4" title="" onClick="Changer()">Portfolio</a></li>
+				<li id="contactli"><a id="contact" href="#" accesskey="5" title="" onClick="Changer()">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+            
+            
+            
+            
+            
+		</div>
+		
+        
+        
+        
+        
+        
+		<div class="sb-slidebar sb-right sb-style-overlay">
+			<!-- Your right Slidebar content. -->
+			<p>Just a line of text to demonstrate the overlay effect.</p>
+		</div>
+    
+    
+    <!-- Slidebars -->
+		<script src="slidebars.js"></script>
+		<script>
+			(function($) {
+				$(document).ready(function() {
+					$.slidebars();
+				});
+			}) (jQuery);
+		</script>
+  
+    
+</body>
+</html>
